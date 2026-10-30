@@ -4,7 +4,7 @@
 
 <h2>Form Pelaporan</h2>
 
-<form action="{{ route('konfirmasi') }}" method="POST">
+<form action="{{ route('lapor.store') }}" method="POST">
 
 @csrf
 
@@ -32,10 +32,8 @@
 
 <br><br>
 
-<button type="submit">
-
-Kirim Laporan
-
+<button type="submit" class="btn btn-success">
+    Kirim Laporan
 </button>
 
 </form>
